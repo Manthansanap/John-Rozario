@@ -10,6 +10,7 @@ interface Blog {
   category: string;
   slug: string;
   published: boolean;
+  image?: string;
 }
 
 export default function AdminBlogsPage() {
