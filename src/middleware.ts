@@ -23,7 +23,8 @@ export default auth((req) => {
     }
 
     // Role-based protection for admin
-    if (isAdminPage && (req.auth?.user as any)?.role !== "admin") {
+    const userRole = (req.auth?.user as any)?.role;
+    if (isAdminPage && userRole === "user") {
       return NextResponse.redirect(new URL("/", req.nextUrl));
     }
   }
