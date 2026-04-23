@@ -53,10 +53,10 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="/booking"
+              href="/contact"
               className="bg-gold-gradient px-5 py-2 rounded-full text-rich-black font-bold text-sm gold-glow hover:scale-105 transition-transform"
             >
-              Book Consultation
+              Contact Us
             </Link>
           </div>
 
@@ -90,11 +90,11 @@ export default function Navbar() {
                 </Link>
               ))}
               <Link
-                href="/booking"
+                href="/contact"
                 onClick={() => setIsOpen(false)}
                 className="block px-3 py-3 bg-gold text-rich-black font-bold text-center rounded-lg mt-4"
               >
-                Book Consultation
+                Contact Us
               </Link>
             </div>
           </motion.div>

@@ -142,10 +142,10 @@ export default function CalculatorPage() {
 
               <div className="mt-12">
                 <button 
-                  onClick={() => window.location.href = "/booking"}
+                  onClick={() => window.location.href = "/contact"}
                   className="w-full bg-white text-rich-black py-4 rounded-xl font-black flex items-center justify-center gap-3 hover:bg-gold transition-all"
                 >
-                  Book Professional Verification <ArrowRight size={20} />
+                  Contact for Verification <ArrowRight size={20} />
                 </button>
               </div>
             </div>

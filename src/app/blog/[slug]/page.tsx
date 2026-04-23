@@ -89,10 +89,10 @@ export default function BlogDetailPage() {
                 <h4 className="text-xl font-serif font-black text-white uppercase italic tracking-tighter">Need Specific <span className="text-gold">Legal Advice?</span></h4>
                 <p className="text-xs text-gray-400 font-bold uppercase tracking-widest leading-relaxed">Adv. Rozario John specializes in complex matters including property litigation and criminal defense. Consult with the expert today.</p>
                 <button 
-                  onClick={() => router.push("/booking")}
+                  onClick={() => router.push("/contact")}
                   className="bg-gold-gradient px-10 py-4 rounded-xl text-rich-black font-black text-sm uppercase tracking-widest hover:scale-105 active:scale-95 transition-all"
                 >
-                  Schedule Your Appointment
+                  Contact for Consultation
                 </button>
              </div>
           </footer>

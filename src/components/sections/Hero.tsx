@@ -37,10 +37,10 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link
-                href="/booking"
+                href="/contact"
                 className="bg-gold-gradient text-rich-black px-8 py-4 rounded-full font-bold flex items-center justify-center gap-2 gold-glow hover:scale-105 transition-transform"
               >
-                Schedule Consultation <ArrowRight size={20} />
+                Contact to Consult <ArrowRight size={20} />
               </Link>
               <Link
                 href="/#services"
