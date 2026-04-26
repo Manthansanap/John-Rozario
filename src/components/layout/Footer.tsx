@@ -41,14 +41,24 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Useful Links */}
+          {/* Useful Links & Calculators */}
           <div>
             <h3 className="font-serif text-lg mb-6 text-gold">Quick Access</h3>
-            <ul className="space-y-4 text-sm text-gray-400">
+            <ul className="space-y-4 text-sm text-gray-400 mb-8">
               <li><Link href="/about" className="hover:text-gold transition-colors">About the Advocate</Link></li>
               <li><Link href="/blog" className="hover:text-gold transition-colors">Legal Blog</Link></li>
-              <li><Link href="/calculator" className="hover:text-gold transition-colors">Stamp Duty Calculator</Link></li>
+              <li><Link href="/calculator" className="hover:text-gold transition-colors">Legal Calculators</Link></li>
               <li><Link href="/notes" className="hover:text-gold transition-colors">Client Notes</Link></li>
+            </ul>
+
+            <h3 className="font-serif text-lg mb-6 text-gold">Calculator Links</h3>
+            <ul className="space-y-3 text-sm text-gray-400">
+              <li><Link href="/calculator/stamp-duty" className="hover:text-gold transition-colors">Stamp Duty Calculator</Link></li>
+              <li><Link href="/calculator/leave-license" className="hover:text-gold transition-colors">Leave & License Calculator</Link></li>
+              <li><Link href="/calculator/gift-deed" className="hover:text-gold transition-colors">Gift Deed Calculator</Link></li>
+              <li><Link href="/calculator/mortgage" className="hover:text-gold transition-colors">Mortgage Calculator</Link></li>
+              <li><Link href="/calculator/loan-emi" className="hover:text-gold transition-colors">EMI Calculator</Link></li>
+              <li><Link href="/calculator/area-converter" className="hover:text-gold transition-colors">Area Converter</Link></li>
             </ul>
           </div>
 
